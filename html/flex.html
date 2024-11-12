@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    .container{
+        /* height: 150px; */
+        width: 80%;
+        border: 3px solid rgb(218, 44, 44);
+        display: flex;
+         flex-wrap: wrap;
+        gap: 20px;
+        /* flex-direction: row-reverse; */
+        flex-direction: column-reverse;
+        
+    }
+    .box{
+        width: 60px;
+        height: 40px;
+        background-color: aquamarine;
+        cursor: grab;
+    }
+    @media only screen and (max-width: 558px) {
+
+        body{
+            background-color:brown ;
+        }
+        .box{
+            background-color: black;
+            color: aliceblue;
+        }
+        .box:hover{
+            background-color: aliceblue;
+        }
+        .container{
+            background-color: blueviolet;
+        }
+        img{
+            border-radius: 50%;
+        }
+}
+</style>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+    <img src="images/Annotation 2024-05-21 102539.png" width="20%" height="20%" alt="" srcset="">
+</body>
+</html>

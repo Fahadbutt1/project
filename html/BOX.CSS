@@ -1,0 +1,33 @@
+.contant{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+.ul ul li{
+    display: inline;
+    margin: 30px;
+}
+.html{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+
+}
+.BOX{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box1{
+    background-color: brown;
+    width: 30%;
+}
+.box2{
+    background-color: blueviolet;
+    width: 30%;
+}
+.box3{
+    background-color: blanchedalmond;
+    width: 30%;
+}

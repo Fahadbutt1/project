@@ -1,0 +1,36 @@
+.container{
+    border: 1px solid rgb(32, 32, 32);
+    width: 80%;
+    height: 300px;
+    display: flex;
+}
+.item{
+    height: 100%;
+    flex: 1;
+    transition: 1.2s ease;
+    
+}
+.item:hover{
+    flex: 2;
+}
+
+.item1{
+    background-color: color(rgb(7, 121, 141))(27, 122, 99, 0.747);
+    background-image: url(images/image-removebg-preview.png);
+    background-size: cover;
+    object-fit: cover;
+    
+}
+.item2{
+    background-color: rgba(27, 122, 99, 0.747);
+    background-image: url(images/image-removebg-preview\ \(1\).png);
+     background-size: cover;
+}
+.item3{
+    background-color: rgb(17, 112, 104);
+    background-image: url(C:\Users\hp\OneDrive\Pictures\Camera);
+}
+.item4{
+background-color: rgb(4, 58, 49);
+}
+    
